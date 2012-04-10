@@ -24,6 +24,8 @@
 		F2901CD51533EFFB00A26A4F /* Tab2_TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2901CD31533EFFB00A26A4F /* Tab2_TableViewController.xib */; };
 		F2901CD91533F0B100A26A4F /* 132-ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = F2901CD81533F0B100A26A4F /* 132-ghost.png */; };
 		F2901CDB1533F0BC00A26A4F /* 196-radiation.png in Resources */ = {isa = PBXBuildFile; fileRef = F2901CDA1533F0BC00A26A4F /* 196-radiation.png */; };
+		F2A969DA153479C00062C5AB /* Tab1_RedScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A969D9153479C00062C5AB /* Tab1_RedScreenViewController.m */; };
+		F2A969DE153479DD0062C5AB /* Tab1_GreenScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A969DD153479DD0062C5AB /* Tab1_GreenScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		F2901CD31533EFFB00A26A4F /* Tab2_TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tab2_TableViewController.xib; sourceTree = "<group>"; };
 		F2901CD81533F0B100A26A4F /* 132-ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "132-ghost.png"; sourceTree = "<group>"; };
 		F2901CDA1533F0BC00A26A4F /* 196-radiation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "196-radiation.png"; sourceTree = "<group>"; };
+		F2A969D8153479C00062C5AB /* Tab1_RedScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab1_RedScreenViewController.h; sourceTree = "<group>"; };
+		F2A969D9153479C00062C5AB /* Tab1_RedScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab1_RedScreenViewController.m; sourceTree = "<group>"; };
+		F2A969DC153479DD0062C5AB /* Tab1_GreenScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab1_GreenScreenViewController.h; sourceTree = "<group>"; };
+		F2A969DD153479DD0062C5AB /* Tab1_GreenScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab1_GreenScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,8 @@
 		F2901CA21533EEF300A26A4F /* SingleViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F2FDF74B15347A1600B7973E /* Tab1_GreenScreenViewController */,
+				F2A969DF153479F50062C5AB /* Tab1_RedScreenViewController */,
 				F2901CAB1533EEF300A26A4F /* AppDelegate.h */,
 				F2901CAC1533EEF300A26A4F /* AppDelegate.m */,
 				F2901CAE1533EEF300A26A4F /* MainStoryboard.storyboard */,
@@ -179,6 +187,26 @@
 				F2901CB21533EEF300A26A4F /* Tab1_ViewController.m */,
 			);
 			name = Tab1_ViewController;
+			sourceTree = "<group>";
+		};
+		F2A969DF153479F50062C5AB /* Tab1_RedScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2A969D8153479C00062C5AB /* Tab1_RedScreenViewController.h */,
+				F2A969D9153479C00062C5AB /* Tab1_RedScreenViewController.m */,
+			);
+			name = Tab1_RedScreenViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F2FDF74B15347A1600B7973E /* Tab1_GreenScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2A969DC153479DD0062C5AB /* Tab1_GreenScreenViewController.h */,
+				F2A969DD153479DD0062C5AB /* Tab1_GreenScreenViewController.m */,
+			);
+			name = Tab1_GreenScreenViewController;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +322,8 @@
 				F2901CAD1533EEF300A26A4F /* AppDelegate.m in Sources */,
 				F2901CB31533EEF300A26A4F /* Tab1_ViewController.m in Sources */,
 				F2901CD41533EFFB00A26A4F /* Tab2_TableViewController.m in Sources */,
+				F2A969DA153479C00062C5AB /* Tab1_RedScreenViewController.m in Sources */,
+				F2A969DE153479DD0062C5AB /* Tab1_GreenScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +493,7 @@
 				F2901CCD1533EEF300A26A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2901CCE1533EEF300A26A4F /* Build configuration list for PBXNativeTarget "SingleViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +502,7 @@
 				F2901CD01533EEF300A26A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
